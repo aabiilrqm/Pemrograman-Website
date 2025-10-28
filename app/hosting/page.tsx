@@ -15,11 +15,11 @@ export default function HostingPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 py-12 px-6">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-50 py-12 px-6">
       <article className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12">
         {/* Header */}
         <header className="flex items-center mb-8">
-          <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-500 rounded-2xl flex items-center justify-center text-4xl mr-4">
+          <div className="w-16 h-16 bg-linear-to-br from-blue-600 to-indigo-500 rounded-2xl flex items-center justify-center text-4xl mr-4">
             💾
           </div>
           <div>

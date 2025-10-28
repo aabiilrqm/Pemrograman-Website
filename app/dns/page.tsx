@@ -5,8 +5,8 @@ export default function DnsPage() {
       url: "https://www.cloudflare.com/learning/dns/what-is-dns/",
     },
     {
-      title: "ICANN – Understanding the Domain Name System",
-      url: "https://www.icann.org/resources/pages/dns-basics-2012-02-25-en",
+      title: "Amazon Web Services – What is DNS?",
+      url: "https://aws.amazon.com/route53/what-is-dns/",
     },
     {
       title: "Google Developers – Introduction to DNS",

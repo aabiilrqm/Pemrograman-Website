@@ -1,16 +1,16 @@
 export default function BrowserPage() {
   const references = [
     {
-      title: "MDN Web Docs – What is a Web Browser?",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_browser",
+      title: "Wikipedia – Web browser",
+      url: "https://en.wikipedia.org/wiki/Web_browser",
     },
     {
-      title: "Google – How Browsers Work",
-      url: "https://developer.chrome.com/docs/multidevice/webview/gettingstarted",
+      title: "GeeksforGeeks",
+      url: "https://www.geeksforgeeks.org/computer-networks/web-browser/",
     },
     {
-      title: "Cloudflare – How Does a Browser Work?",
-      url: "https://www.cloudflare.com/learning/bots/what-is-a-web-browser/",
+      title: "MDN Web Docs – What is a web browser?",
+      url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
     },
   ];
 

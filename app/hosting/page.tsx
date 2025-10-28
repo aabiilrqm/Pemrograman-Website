@@ -5,8 +5,8 @@ export default function HostingPage() {
       url: "https://www.hostinger.com/tutorials/what-is-web-hosting",
     },
     {
-      title: "Cloudflare - What is web hosting?",
-      url: "https://www.cloudflare.com/learning/web-hosting/what-is-web-hosting/",
+      title: "Amazon Web Services - What is Web Hosting?",
+      url: "https://aws.amazon.com/id/what-is/web-hosting/",
     },
     {
       title: "Wikipedia - Web hosting service",

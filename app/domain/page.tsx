@@ -1,8 +1,8 @@
 export default function DomainPage() {
   const references = [
     {
-      title: "ICANN - What is a domain name?",
-      url: "https://www.icann.org/resources/pages/domain-name-2012-02-25-en",
+      title: "MDN Web Docs - What is a domain name?",
+      url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
     },
     {
       title: "Cloudflare - What is a domain name?",

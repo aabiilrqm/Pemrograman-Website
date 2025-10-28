@@ -10,7 +10,7 @@ export default function HomePage() {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      title: "Nama Domain",
+      title: "Domain",
       desc: "Alamat unik untuk mengakses situs di internet.",
       href: "/domain",
       icon: "📝",
@@ -55,23 +55,6 @@ export default function HomePage() {
           </p>
         </section>
 
-        {/* Info Banner
-        <div className="bg-white/60 backdrop-blur-sm border border-sky-200 rounded-2xl p-6 mb-12 shadow-lg">
-          <div className="flex items-start space-x-4">
-            <div className="shrink-0 text-3xl">💡</div>
-            <div>
-              <h3 className="font-semibold text-gray-800 mb-1">
-                Mengapa Penting?
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Memahami cara kerja internet membantu Anda menjadi pengguna yang
-                lebih cerdas dan developer yang lebih baik. Klik kartu di bawah
-                untuk mempelajari setiap komponen secara detail.
-              </p>
-            </div>
-          </div>
-        </div> */}
-
         {/* Cards Section */}
         <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           {topics.map((topic) => (
@@ -81,7 +64,7 @@ export default function HomePage() {
               className="group relative block bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-2xl transition-all duration-300 rounded-2xl p-8 border border-gray-100 hover:-translate-y-2 overflow-hidden"
             >
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${topic.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
+                className={`absolute inset-0 bg-linear-to-br ${topic.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
               ></div>
 
               <div className="relative mb-4">
